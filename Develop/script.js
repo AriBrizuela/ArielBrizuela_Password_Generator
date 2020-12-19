@@ -27,7 +27,7 @@ function generatePassword(){
   if (!enter) {
     alert("This needs a value please");
   }
-  else if (enter < 8 || enter > 128){
+  else if (enter < 8 || enter > 128) {
     enter = parseInt(prompt ("You need to choose between 8 and 128, please （；¬＿¬)"));
   }
  
@@ -109,7 +109,7 @@ function generatePassword(){
     choices = contact(GetRandomNumbers)
   }
     
-  
+}
   var password = [];
 
  
